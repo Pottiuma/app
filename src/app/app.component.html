@@ -1,0 +1,19 @@
+<router-outlet></router-outlet>
+<table border="1">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>favcolor</th>
+      <th>favhero</th>
+      <th>favnumber</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let arr of array">
+      <td>{{arr.Name}}</td>
+      <td>{{arr.favcolor}}</td>
+      <td>{{arr.favhero}}</td>
+      <td>{{arr.favnumber}}</td>
+    </tr>
+  </tbody>
+</table>
